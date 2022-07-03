@@ -3,7 +3,7 @@ import sys
 import json
 import hashlib
 
-wordlist_location = "/home/rajanrajan/wordlist.txt" #change this to the location where you saved your generated wordlist
+wordlist_location = "/tmp/wordlist.txt" #change this to the location where you saved your generated wordlist
 user = "marco"
 url = "http://<ip>/api/login"  #change the ip with tryhackme's machine ip
 headers = {"Accept": "application/json"}
